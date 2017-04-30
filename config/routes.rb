@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :movies
   get 'home/Index'
 
   get 'home/ClassInfo'
